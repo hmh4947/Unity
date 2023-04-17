@@ -49,6 +49,7 @@
   <ItemGroup>
      <Compile Include="Assets\Column\Column_Spawner.cs" />
      <Compile Include="Assets\Timer.cs" />
+     <Compile Include="Assets\ScoreManager.cs" />
      <Compile Include="Assets\Player\PlayerController.cs" />
      <Compile Include="Assets\Wall\Wall_Spawner.cs" />
      <Compile Include="Assets\Bullet\BulletGenerator.cs" />
@@ -60,6 +61,7 @@
      <Compile Include="Assets\FinishFloor.cs" />
      <Compile Include="Assets\Bar\Bar_Spawner.cs" />
      <Compile Include="Assets\Wall\Wall.cs" />
+     <Compile Include="Assets\Propeller1.cs" />
      <Compile Include="Assets\Bar\Bar.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.45f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

@@ -18,10 +18,7 @@ public class Timer : MonoBehaviour
       
     }
        
-        // isGameover = false;
-    
-
-    // Update is called once per frame
+       
     void Update()
     {
 
