@@ -2,28 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+
 using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
-    
-{
 
-    
-  
+{
+   
+
     float speed = 3.0f;
-    
+
 
     // Start is called before the first frame update
 
 
+
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
 
-    void Update()
+    private void Update()
     {
 
 
@@ -43,6 +44,8 @@ public class PlayerController : MonoBehaviour
         {
             transform.Translate(Vector3.right * speed * Time.deltaTime);
         }
-       
+        
     }
+   
+   
 }
