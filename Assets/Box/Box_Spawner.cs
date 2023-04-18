@@ -22,21 +22,17 @@ public class Box_Spawner : MonoBehaviour
         float zPos = Random.Range(-37.0f, -11.0f);
         Vector3 randomPos = new Vector3(xPos, 9.0f,zPos);
 
-        timeCount += Time.deltaTime;
-        if (timeCount > 1.0f)
+        
+        if (timeCount > 1.0f && timeCount < 13.0f)
         {
             Debug.Log("생성");
             Instantiate(BoxPrefab, randomPos, transform.rotation);
             timeCount = 0.0f;
 
-        }
-        else if (timeCount >13.0f)
-        {
-            Debug.Log("삭제");
-            Destroy(gameObject);
+            Destroy(gameObject,5.0f);
         }
 
-        // timeCount += Time.deltaTime;
+         timeCount += Time.deltaTime;
     }
     
    
